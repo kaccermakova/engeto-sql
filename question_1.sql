@@ -1,6 +1,6 @@
--- Otázka 1
--- U každého odvětví porovnávám mzdu s předchozím rokem.
--- Výstup ukáže počet poklesů, roky poklesu, nejhorší změnu
+-- Výzkumná otázka 1: Rostou mzdy v průběhu let ve všech odvětvích, nebo se v některých letech objevuje pokles?
+-- Pro každé odvětví se porovnává mzda s hodnotou z předchozího roku.
+-- Výstup ukazuje počet meziročních poklesů, roky jejich výskytu, nejhorší změnu
 -- a průměrnou meziroční změnu za celé sledované období.
 
 WITH wage_history AS (
