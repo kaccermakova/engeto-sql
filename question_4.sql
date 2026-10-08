@@ -1,6 +1,7 @@
--- Otázka 4
--- Nejprve počítám meziroční změnu každé potraviny.
--- Z těchto změn vznikne průměr za celý rok, který porovnám
+-- Výzkumná otázka 4: Existuje rok, ve kterém byl růst cen potravin
+-- o více než 10 procentních bodů vyšší než růst průměrné mzdy?
+-- Nejprve se vypočítají meziroční změny cen jednotlivých potravin.
+-- Z těchto hodnot vznikne průměrný růst cen za každý rok, který se následně porovnává
 -- s meziroční změnou celostátní průměrné mzdy.
 
 WITH price_history AS (

@@ -1,8 +1,8 @@
--- Otázka 5
--- První dotaz porovnává meziroční růst HDP, mezd a cen.
--- Současně doplňuje růst mezd a cen v následujícím roce.
--- Druhý dotaz nad stejnými ukazateli spočítá Pearsonovu korelaci.
--- Korelace je kvůli malému počtu let jen orientační.
+-- Výzkumná otázka 5: Má vývoj HDP vztah ke změnám mezd a cen potravin
+-- ve stejném roce nebo v roce následujícím?
+-- První dotaz porovnává meziroční růst HDP, mezd a cen a doplňuje také hodnoty pro následující rok.
+-- Druhý dotaz nad stejnými ukazateli počítá Pearsonovy korelační koeficienty.
+-- Vzhledem k malému počtu dostupných let je potřeba korelace interpretovat pouze orientačně.
 
 WITH gdp_series AS (
     SELECT

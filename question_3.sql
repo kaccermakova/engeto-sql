@@ -1,7 +1,7 @@
--- Otázka 3
--- U každé potraviny porovnávám cenu s předchozím dostupným rokem.
--- Do průměru započítávám jen skutečně navazující roky,
--- aby kategorie s mezerou v datech nebyly zkreslené.
+-- Výzkumná otázka 3: Která kategorie potravin vykazuje nejnižší průměrnou meziroční změnu ceny?
+-- U každé potraviny se cena porovnává s předchozím dostupným rokem.
+-- Do průměru vstupují pouze dvojice skutečně po sobě jdoucích let,
+-- aby kategorie s mezerami v časové řadě nezkreslovaly výsledek.
 
 WITH price_history AS (
     SELECT

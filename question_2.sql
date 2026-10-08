@@ -1,6 +1,7 @@
--- Otázka 2
--- Porovnávám kupní sílu průměrné české mzdy v prvním a posledním roce.
--- Z potravin vybírám pouze chléb a mléko.
+-- Výzkumná otázka 2: Kolik litrů mléka a kilogramů chleba lze koupit za průměrnou mzdu
+-- v prvním a posledním roce společného období?
+-- Pro výpočet se používá celostátní průměrná mzda a ceny chleba a mléka.
+-- Porovnání pracuje s prvním a posledním rokem dostupným v primární finální tabulce.
 
 WITH comparison_years AS (
     SELECT
